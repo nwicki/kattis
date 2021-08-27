@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named whatdoesthefoxsay
+
+# Build rule for target.
+whatdoesthefoxsay: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 whatdoesthefoxsay
+.PHONY : whatdoesthefoxsay
+
+# fast build rule for target.
+whatdoesthefoxsay/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whatdoesthefoxsay.dir/build.make CMakeFiles/whatdoesthefoxsay.dir/build
+.PHONY : whatdoesthefoxsay/fast
+
+#=============================================================================
 # Target rules for targets named yoda
 
 # Build rule for target.
@@ -182,6 +195,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kattis.dir/build.make CMakeFiles/kattis.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+whatdoesthefoxsay.o: whatdoesthefoxsay.cpp.o
+
+.PHONY : whatdoesthefoxsay.o
+
+# target to build an object file
+whatdoesthefoxsay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whatdoesthefoxsay.dir/build.make CMakeFiles/whatdoesthefoxsay.dir/whatdoesthefoxsay.cpp.o
+.PHONY : whatdoesthefoxsay.cpp.o
+
+whatdoesthefoxsay.i: whatdoesthefoxsay.cpp.i
+
+.PHONY : whatdoesthefoxsay.i
+
+# target to preprocess a source file
+whatdoesthefoxsay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whatdoesthefoxsay.dir/build.make CMakeFiles/whatdoesthefoxsay.dir/whatdoesthefoxsay.cpp.i
+.PHONY : whatdoesthefoxsay.cpp.i
+
+whatdoesthefoxsay.s: whatdoesthefoxsay.cpp.s
+
+.PHONY : whatdoesthefoxsay.s
+
+# target to generate assembly for a file
+whatdoesthefoxsay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whatdoesthefoxsay.dir/build.make CMakeFiles/whatdoesthefoxsay.dir/whatdoesthefoxsay.cpp.s
+.PHONY : whatdoesthefoxsay.cpp.s
+
 yoda.o: yoda.cpp.o
 
 .PHONY : yoda.o
@@ -218,10 +258,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kattis"
+	@echo "... whatdoesthefoxsay"
 	@echo "... yoda"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... whatdoesthefoxsay.o"
+	@echo "... whatdoesthefoxsay.i"
+	@echo "... whatdoesthefoxsay.s"
 	@echo "... yoda.o"
 	@echo "... yoda.i"
 	@echo "... yoda.s"

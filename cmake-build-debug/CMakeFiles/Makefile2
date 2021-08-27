@@ -72,6 +72,7 @@ CMAKE_BINARY_DIR = /Users/nicolaswicki/home/programs/kattis/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/whatdoesthefoxsay.dir/all
 all: CMakeFiles/yoda.dir/all
 all: CMakeFiles/kattis.dir/all
 
@@ -83,10 +84,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/whatdoesthefoxsay.dir/clean
 clean: CMakeFiles/yoda.dir/clean
 clean: CMakeFiles/kattis.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/whatdoesthefoxsay.dir
+
+# All Build rule for target.
+CMakeFiles/whatdoesthefoxsay.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whatdoesthefoxsay.dir/build.make CMakeFiles/whatdoesthefoxsay.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whatdoesthefoxsay.dir/build.make CMakeFiles/whatdoesthefoxsay.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nicolaswicki/home/programs/kattis/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target whatdoesthefoxsay"
+.PHONY : CMakeFiles/whatdoesthefoxsay.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/whatdoesthefoxsay.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nicolaswicki/home/programs/kattis/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/whatdoesthefoxsay.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nicolaswicki/home/programs/kattis/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/whatdoesthefoxsay.dir/rule
+
+# Convenience name for target.
+whatdoesthefoxsay: CMakeFiles/whatdoesthefoxsay.dir/rule
+
+.PHONY : whatdoesthefoxsay
+
+# clean rule for target.
+CMakeFiles/whatdoesthefoxsay.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whatdoesthefoxsay.dir/build.make CMakeFiles/whatdoesthefoxsay.dir/clean
+.PHONY : CMakeFiles/whatdoesthefoxsay.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/yoda.dir
@@ -95,7 +124,7 @@ clean: CMakeFiles/kattis.dir/clean
 CMakeFiles/yoda.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yoda.dir/build.make CMakeFiles/yoda.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yoda.dir/build.make CMakeFiles/yoda.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nicolaswicki/home/programs/kattis/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target yoda"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nicolaswicki/home/programs/kattis/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target yoda"
 .PHONY : CMakeFiles/yoda.dir/all
 
 # Build rule for subdir invocation for target.

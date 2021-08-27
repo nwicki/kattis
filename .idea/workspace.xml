@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="kattis" targetName="yoda" />
+      <config projectName="kattis" targetName="whatdoesthefoxsay" />
       <config projectName="kattis" targetName="kattis" />
     </generated>
   </component>
@@ -12,12 +13,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76fd14be-2cf0-42f9-b41a-1f2128416c66" name="Default Changelist" comment="Problem ID: yoda - still failing...">
+    <list default="true" id="76fd14be-2cf0-42f9-b41a-1f2128416c66" name="Default Changelist" comment="Problem ID: yoda, Difficulty: 2.0 - DONE">
+      <change afterPath="$PROJECT_DIR$/testcases/whatdoesthefoxsay.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whatdoesthefoxsay.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/yoda.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/yoda.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kattis.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kattis.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/yoda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/yoda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yoda.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/yoda.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,15 +71,21 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
-  <component name="RunManager" selected="CMake Application.yoda">
+  <component name="RunManager" selected="CMake Application.whatdoesthefoxsay">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="kattis" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kattis" TARGET_NAME="kattis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kattis" RUN_TARGET_NAME="kattis">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="whatdoesthefoxsay" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kattis" TARGET_NAME="whatdoesthefoxsay" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kattis" RUN_TARGET_NAME="whatdoesthefoxsay">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -85,6 +102,7 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.kattis" />
+      <item itemvalue="CMake Application.whatdoesthefoxsay" />
       <item itemvalue="CMake Application.yoda" />
     </list>
   </component>
@@ -96,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629981336741</updated>
-      <workItem from="1629981338610" duration="7160000" />
+      <workItem from="1629981338610" duration="11653000" />
     </task>
     <task id="LOCAL-00001" summary="Problem ID: yoda, Difficulty: 2.0">
       <created>1630003762383</created>
@@ -112,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630007403003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Problem ID: yoda, Difficulty: 2.0 - DONE">
+      <created>1630052026679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630052026679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Problem ID: yoda, Difficulty: 2.0" />
     <MESSAGE value="Problem ID: yoda - still failing..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem ID: yoda - still failing..." />
+    <MESSAGE value="Problem ID: yoda, Difficulty: 2.0 - DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem ID: yoda, Difficulty: 2.0 - DONE" />
   </component>
 </project>

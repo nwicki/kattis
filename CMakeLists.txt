@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(kattis main.cpp)
 add_executable(yoda yoda.cpp)
+add_executable(whatdoesthefoxsay whatdoesthefoxsay.cpp)
