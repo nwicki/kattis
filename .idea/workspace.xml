@@ -12,9 +12,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76fd14be-2cf0-42f9-b41a-1f2128416c66" name="Default Changelist" comment="Problem ID: yoda, Difficulty: 2.0">
+    <list default="true" id="76fd14be-2cf0-42f9-b41a-1f2128416c66" name="Default Changelist" comment="Problem ID: yoda - still failing...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/yoda.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yoda.dir/yoda.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/yoda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/yoda" afterDir="false" />
@@ -31,6 +30,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="bf7f87ce-8ebd-46b2-9d6f-4c09efd519ff" />
@@ -89,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629981336741</updated>
-      <workItem from="1629981338610" duration="5440000" />
+      <workItem from="1629981338610" duration="7160000" />
     </task>
     <task id="LOCAL-00001" summary="Problem ID: yoda, Difficulty: 2.0">
       <created>1630003762383</created>
@@ -98,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630003762383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Problem ID: yoda - still failing...">
+      <created>1630007403003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630007403003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Problem ID: yoda, Difficulty: 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem ID: yoda, Difficulty: 2.0" />
+    <MESSAGE value="Problem ID: yoda - still failing..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem ID: yoda - still failing..." />
   </component>
 </project>
