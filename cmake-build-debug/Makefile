@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named trainpassengers
+
+# Build rule for target.
+trainpassengers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trainpassengers
+.PHONY : trainpassengers
+
+# fast build rule for target.
+trainpassengers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainpassengers.dir/build.make CMakeFiles/trainpassengers.dir/build
+.PHONY : trainpassengers/fast
+
+#=============================================================================
 # Target rules for targets named whatdoesthefoxsay
 
 # Build rule for target.
@@ -195,6 +208,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kattis.dir/build.make CMakeFiles/kattis.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+trainpassengers.o: trainpassengers.cpp.o
+
+.PHONY : trainpassengers.o
+
+# target to build an object file
+trainpassengers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainpassengers.dir/build.make CMakeFiles/trainpassengers.dir/trainpassengers.cpp.o
+.PHONY : trainpassengers.cpp.o
+
+trainpassengers.i: trainpassengers.cpp.i
+
+.PHONY : trainpassengers.i
+
+# target to preprocess a source file
+trainpassengers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainpassengers.dir/build.make CMakeFiles/trainpassengers.dir/trainpassengers.cpp.i
+.PHONY : trainpassengers.cpp.i
+
+trainpassengers.s: trainpassengers.cpp.s
+
+.PHONY : trainpassengers.s
+
+# target to generate assembly for a file
+trainpassengers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainpassengers.dir/build.make CMakeFiles/trainpassengers.dir/trainpassengers.cpp.s
+.PHONY : trainpassengers.cpp.s
+
 whatdoesthefoxsay.o: whatdoesthefoxsay.cpp.o
 
 .PHONY : whatdoesthefoxsay.o
@@ -258,11 +298,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kattis"
+	@echo "... trainpassengers"
 	@echo "... whatdoesthefoxsay"
 	@echo "... yoda"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... trainpassengers.o"
+	@echo "... trainpassengers.i"
+	@echo "... trainpassengers.s"
 	@echo "... whatdoesthefoxsay.o"
 	@echo "... whatdoesthefoxsay.i"
 	@echo "... whatdoesthefoxsay.s"
