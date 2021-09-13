@@ -9,4 +9,7 @@ add_executable(whatdoesthefoxsay whatdoesthefoxsay.cpp)
 add_executable(trainpassengers trainpassengers.cpp)
 add_executable(touchscreenkeyboard touchscreenkeyboard.cpp)
 add_executable(thegrandadventure thegrandadventure.cpp)
-
+add_executable(hailstone hailstone.cpp)
+add_executable(hailstone-iterative hailstone-iterative.cpp)
+add_executable(hailstone-test hailstone-test.cpp)
+add_executable(hailstone-testcase-generation hailstone-testcase-generation.cpp)
